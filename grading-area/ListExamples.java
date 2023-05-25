@@ -12,7 +12,11 @@ class ListExamples {
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
+<<<<<<< HEAD
         result.add(s);
+=======
+        result.add(0, s)
+>>>>>>> 60dfe41d010b0f37e72f1bfbf9a1d7e58cda2b0f
       }
     }
     return result;
@@ -40,7 +44,11 @@ class ListExamples {
     }
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
+<<<<<<< HEAD
       index2 += 1;
+=======
+      index1 += 1;
+>>>>>>> 60dfe41d010b0f37e72f1bfbf9a1d7e58cda2b0f
     }
     return result;
   }

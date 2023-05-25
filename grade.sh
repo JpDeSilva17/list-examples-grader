@@ -29,6 +29,7 @@ if [[ -f student-submission/ListExamples.java ]]
 
 
 
+if [[]]
 # Draw a picture/take notes on the directory structure that's set up after
 # getting to this point
 
