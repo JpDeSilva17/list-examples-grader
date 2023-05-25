@@ -12,6 +12,7 @@ echo 'Finished cloning'
 if [[ -f student-submission/ListExamples.java ]]
     then
         echo 'found'
+        cd ..
         cp student-submission/ListExamples.java grading-area
         cp TestListExamples.java grading-area
         cp lib -r grading-area
