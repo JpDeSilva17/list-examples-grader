@@ -12,7 +12,6 @@ echo 'Finished cloning'
 if [[ -f student-submission/ListExamples.java ]]
     then
         echo 'found'
-        cd ..
         cp student-submission/ListExamples.java grading-area
         cp TestListExamples.java grading-area
         cp lib -r grading-area
@@ -24,7 +23,6 @@ if [[ -f student-submission/ListExamples.java ]]
         echo 'Wrong file. Make sure you submit ListExamples.java'
         exit 1
     fi
-
 
 
 # Draw a picture/take notes on the directory structure that's set up after
